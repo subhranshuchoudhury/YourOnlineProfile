@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contacs</title>
+	<style type="text/css">
+	p{
+		background-color: #3d404f;
+		color: whitesmoke;
+		font-size: 30px;
+		width: 30%;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		border-radius: 20px;
+	}
+
+	img{
+		margin-top: 30px;
+		width: 400px;
+		border-radius: 13px;
+	}
+</style>
+</head>
+<link rel="stylesheet" type="text/css" href="../style.css">
+<body>
+	<div class="topnav">
+  <a href="../index.html">Home</a>
+  <a href="mywork.html">My Work</a>
+  <a href="projects.html">Projects</a>
+  <a href="showoff.html">Showoff</a>
+  <a class="active" href="contact.html">Contact</a>
+</div>
+
+<center>
+	<div class="mywork" id="con_box"></div>
+	<img src="../img/wqr.jpeg">
+</center>
+
+<script type="text/javascript">
+	let contact_details = "Name: Subhranshu Choudhury<br>Mobile: +918249587552<br>Whatsapp: +918249587552<br>AT/PO: Mahakalapara<br>Pincode: 754224<br>India";
+	document.getElementById("con_box").innerHTML = contact_details;
+	
+</script>
+
+</body>
+</html>
