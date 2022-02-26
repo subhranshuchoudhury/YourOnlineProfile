@@ -1,0 +1,211 @@
+/* CSS */
+/* Add a black background color to the top navigation */
+.topnav {
+
+  background-color: #3d404f;
+  overflow: hidden;
+  margin-bottom: 30px;
+  
+  margin-top: 0px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+body{
+  margin: 0px;
+
+}
+
+.button-home {
+  background-color: #c2fbd7;
+  border-radius: 8px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  margin: 30px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 23px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-home:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+hr{
+  background-color: #c2fbd7;
+  height: 1px;
+  width: 90%;
+  margin-bottom: 50px;
+  border-color: #c2fbd7;
+  border: 1px dashed #c2fbd7;
+  border-radius: 5px;
+}
+#profile{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-image: url("img/profile.png");
+}
+
+
+body { 
+  height: 100%; background: linear-gradient(90deg, #e1e4e8 50%, #48a868 50%); 
+}
+
+#about-user {
+  width: 50%;
+  margin-top: 50px;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-right: 10px;
+  color: whitesmoke;
+  padding-bottom: 20px;
+  text-align: center;
+  border-color: red;
+  border-radius: 10px;
+  background-color: #3d404f;
+  animation-name: colorchange;
+  animation-duration: 4s;
+}
+
+@keyframes colorchange {
+  from {background-color: #e1e4e8;}
+  to {background-color: #48a868;}
+}
+
+.mywork {
+  width: 50%;
+  margin-top: 50px;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-right: 10px;
+  color: whitesmoke;
+  padding-bottom: 20px;
+  text-align: center;
+  border-color: red;
+  border-radius: 10px;
+  background-color: #3d404f;
+  animation-name: colorchange;
+  animation-duration: 4s;
+}
+
+@keyframes colorchange {
+  from {background-color: #e1e4e8;}
+  to {background-color: #48a868;}
+}
+
+
+
+
+.profile {
+  width: 100px;
+  height: 100px;
+  background-color: #32b15c;
+  position: relative;
+  animation-name: hovereffect;
+  animation-duration: 3s;
+}
+
+@keyframes hovereffect {
+  0%   {background-color:#3d404f; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:0px; top:0px;}
+  75%  {background-color:green; left:0px; top:0px;}
+  100% {background-color:#3d404f; left:0px; top:0px;}
+}
+
+#username{
+
+  margin-top: 10px;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: seagreen;
+  width: 30%;
+  border-radius: 13px;
+
+
+}
+
+.icon{
+  height: 75px;
+  width: 75px;
+  margin: 30px;
+  border-radius: 13px;
+  cursor: pointer;
+}
+.icon:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-3deg);
+}
+
+.animate-character
+{
+  margin-top: 10px;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  font-weight: 900;
+  padding-top: 10px;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 22px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
